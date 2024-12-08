@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!--Navbar Section starts here-->
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./SecuSoft Labs logo.png" alt="Secure Soft Labs Logo" width="40px" style="border-radius: 50%;"/> SecureSoftLabs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Software Development</a></li>
+                  <li><a class="dropdown-item" href="#">Digital Forensics</a></li>
+                  <li><a class="dropdown-item" href="#">Vulnerability Analysis</a></li>
+                  <li><a class="dropdown-item" href="#">Penetration Testing</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CSR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Navbar ends here -->
+     
+    <!-- Carousel section -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Software development.jpg" class="d-block w-100" height="390px" alt="Software Development">
+        </div>
+        <div class="carousel-item">
+          <img src="./Digital Forensics.jpg" class="d-block w-100" height="390px" alt="Digital Forensics">
+        </div>
+        <div class="carousel-item">
+          <img src="./Vulnerability Analysis.jpg" class="d-block w-100" height="390px" alt="Vulnerability Analysis">
+        </div>
+        <div class="carousel-item">
+          <img src="./Penetration Testing.jpg" class="d-block w-100" height="390px" alt="Penetration Testing">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Carousel Section ends here -->
+
+    <!-- Welcome Section -->
+    <section class="py-3" id="welcome" style="background-color: #f4f4f4; text-align: center;">
+    <div class="container py-5">
+      <div class="row py-5">
+      <div class="col">
+        <h2 style="font-size: 2.5rem; color: #2c3e50;">Welcome to SecureSoft Labs</h2>
+        <p style="font-size: 1.2rem; color: #7f8c8d;">
+          At SecuSoft Labs, we specialize in providing cutting-edge cybersecurity and software development solutions. 
+          Our mission is to safeguard your digital assets while delivering innovative technology tailored to your needs.
+        </p>
+        <a href="#services" style="display: inline-block; background-color: #3498db; color: white; text-decoration: none; padding: 15px 30px; border-radius: 5px; font-size: 1rem; margin-top: 20px;">
+          Discover Our Services
+        </a>
+      </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Welcome section ends here -->
+
+    <!-- Services section starts here-->
+    <section id="services">
+    <div class="container mt-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center">
+          <div class="card my-3" style="width: 18rem;">
+            <img src="./Software development.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Software Development</h5>
+              <p class="card-text my-4">We specialize in creating custom software solutions that enhance operational efficiency, improve productivity, and meet your specific business needs.</p>
+              <br /><a href="#" class="btn btn-primary mb-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center">
+          <div class="card my-3" style="width: 18rem;">
+            <img src="./Digital Forensics.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Digital Forensics</h5>
+              <p class="card-text my-4">Our digital forensics service helps you investigate and recover data from cybercrimes, security breaches, and digital incidents to ensure critical information is protected.</p>
+              <a href="#" class="btn btn-primary mb-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center">
+          <div class="card my-3" style="width: 18rem;">
+            <img src="./Vulnerability Analysis.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vulnerability Analysis</h5>
+              <p class="card-text my-4">We conduct comprehensive vulnerability assessments to identify potential risks in your network, systems, and applications, allowing you to take action before attackers exploit weaknesses.</p>
+              <a href="#" class="btn btn-primary mb-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center">
+          <div class="card my-3" style="width: 18rem;">
+            <img src="./Penetration Testing.jpg" class="card-img-top" alt="Penetration Testing">
+            <div class="card-body">
+              <h5 class="card-title">Penetration Testing</h5>
+              <br /><p class="card-text my-4">Our expert penetration testers simulate real-world cyberattacks to identify and fix security vulnerabilities, strengthening your defenses against hackers.</p>
+              <a href="#" class="btn btn-primary mb-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center">
+          <div class="card my-3" style="width: 18rem;">
+            <img src="./Vulnerability Analysis.jpg" class="card-img-top" alt="Cloud Security">
+            <div class="card-body">
+              <h5 class="card-title">Cloud Security</h5>
+              <p class="card-text my-4">We provide cloud security solutions to protect your data and applications from unauthorized access, ensuring your cloud infrastructure remains safe and compliant.</p>
+              <a href="#" class="btn btn-primary mb-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 d-flex justify-content-center">
+          <div class="card my-3" style="width: 18rem;">
+            <img src="./Penetration Testing.jpg" class="card-img-top" alt="Incident Response">
+            <div class="card-body">
+              <h5 class="card-title">Incident Response</h5>
+              <br /><p class="card-text my-4">Our incident response team acts swiftly to contain and mitigate the impact of cybersecurity breaches, minimizing damage and enabling rapid recovery.</p>
+              <a href="#" class="btn btn-primary mb-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Services section ends here -->
+
+    <!-- Blog section starts here -->
+    <section id="blog">
+    <div class="album py-5 bg-body-tertiary mt-5">
+      <div class="container">
+        <div class="col-lg-8 col-md-8 mx-auto mb-5">
+          <h2 class="dark text-center">Here's a Sneek Peek at our Blog Section</h2>
+        </div>
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Blog section ends here -->
+
+    <!-- Footer section begins here -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2024 SecureSoftLabs</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="./SecuSoft Labs logo.png" alt="SecureSoftLabs logo" height="70px" style="border-radius: 50%;"/>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link px-2 text-body-secondary">Services</a></li>
+          <li class="nav-item"><a href="#blog" class="nav-link px-2 text-body-secondary">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">CSR</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Footer section ends here -->
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
